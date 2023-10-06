@@ -30,7 +30,7 @@
     "require-dev": {
         "phpunit/phpunit": "^8.2.3",
         "phpstan/phpstan": "^0.12.25",
-        "friendsofphp/php-cs-fixer": "2.16.3",
+        "friendsofphp/php-cs-fixer": "^2.16.3",
         "amphp/artax": "^3.0",
         "amphp/socket": "^0.10.5"
     },
@@ -39,5 +39,10 @@
         "test-ci": "vendor/bin/phpunit --coverage-clover build/coverage.xml",
         "lint": "vendor/bin/phpstan analyse --configuration phpstan.neon"
     },
-    "prefer-stable": true
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
 }
