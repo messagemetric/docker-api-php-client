@@ -16,9 +16,9 @@
     },
     "require": {
         "php": ">=7.2",
-        "jane-php/open-api-runtime": "6.0.2",
-        "jane-php/open-api-3": "6.0.2",
-        "jane-php/json-schema": "6.0.2",
+        "jane-php/open-api-runtime": "^6.0.2",
+        "jane-php/open-api-3": "^6.0.2",
+        "jane-php/json-schema": "^6.0.2",
         "amphp/artax": "^3.0",
         "guzzlehttp/psr7": "^1.2",
         "php-http/client-common": "^2.1.0",
