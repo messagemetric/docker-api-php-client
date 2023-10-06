@@ -22,7 +22,7 @@
         "amphp/artax": "^3.0",
         "guzzlehttp/psr7": "^1.2",
         "php-http/client-common": "^2.1.0",
-        "php-http/socket-client": "2.0.0-beta1",
+        "php-http/socket-client": "^2.1.1",
         "php-http/message": "^1.0",
         "symfony/filesystem": "^2.3 || ^3.0 || ^4.0 || ^5.0",
         "symfony/process": "^2.3 || ^3.0 || ^4.0 || ^5.0"
